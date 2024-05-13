@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { VideosService } from 'src/app/services/videos.service';
-
 @Component({
-  selector: 'app-lista',
-  templateUrl: './lista.component.html',
-  styleUrls: ['./lista.component.css']
+  selector: 'app-ultimo',
+  templateUrl: './ultimo.component.html',
+  styleUrls: ['./ultimo.component.css']
 })
-export class ListaComponent implements OnInit {
+
+export class UltimoComponent implements OnInit {
 
   data:any = []; 
 

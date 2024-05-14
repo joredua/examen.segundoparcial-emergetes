@@ -7,6 +7,10 @@ import { DirectorioComponent } from './pages/directorio/directorio.component';
 import { EjecutivoComponent } from './pages/ejecutivo/ejecutivo.component';
 import { EstructuraComponent } from './pages/estructura/estructura.component';
 import { GeograficaComponent } from './pages/geografica/geografica.component';
+import { AsesoriaComponent } from './pages/asesoria/asesoria.component';
+import { HistoriComponent } from './pages/histori/histori.component';
+import { AuditoriComponent } from './pages/auditori/auditori.component';
+
 const routes: Routes = [
   { path : "", component : MainComponent},
   { path : "inicio", component : InicioComponent},
@@ -15,7 +19,9 @@ const routes: Routes = [
   { path : "ejecutivo", component : EjecutivoComponent}, 
   { path : "estructura", component : EstructuraComponent},
   { path : "geografica", component : GeograficaComponent},      
-
+  { path : "asesoria", component : AsesoriaComponent},
+  { path : "histori", component : HistoriComponent}, 
+  { path : "auditori", component : AuditoriComponent},  
 ];
 
 @NgModule({

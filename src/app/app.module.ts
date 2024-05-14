@@ -15,6 +15,10 @@ import { GeograficaComponent } from './pages/geografica/geografica.component';
 import { EjecutivoComponent } from './pages/ejecutivo/ejecutivo.component';
 import { EstructuraComponent } from './pages/estructura/estructura.component';
 import { DirectorioComponent } from './pages/directorio/directorio.component';
+import { AsesoriaComponent } from './pages/asesoria/asesoria.component';
+import { HistoriComponent } from './pages/histori/histori.component';
+import { AuditoriComponent } from './pages/auditori/auditori.component';
+import { HerdComponent } from './commons/herd/herd.component';
 
 
 
@@ -34,6 +38,10 @@ import { DirectorioComponent } from './pages/directorio/directorio.component';
     EjecutivoComponent,
     EstructuraComponent,
     DirectorioComponent,
+    AsesoriaComponent,
+    HistoriComponent,
+    AuditoriComponent,
+    HerdComponent,
     
   ],
   imports: [

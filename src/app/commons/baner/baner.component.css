@@ -138,3 +138,8 @@
     width: 370px;
 
 }
+.product-img{
+    width: 100%;
+    position: relative;
+    z-index:-1;
+}

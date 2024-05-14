@@ -1,4 +1,9 @@
-
+.container{
+    width:90vw;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
 
 
 .cabeza h4{
@@ -17,6 +22,7 @@
     font-family: 'Montserrat', sans-serif;
     display: flex;
     text-align: center;
+    width:70vw;
 }
 
 .personA{

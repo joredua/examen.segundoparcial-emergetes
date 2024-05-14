@@ -24,7 +24,7 @@ import { DirectorioComponent } from './pages/directorio/directorio.component';
     HeaderComponent,
     FooterComponent,
     MainComponent,
-  
+   
     NofoundComponent,
     BanerComponent,
     InicioComponent,

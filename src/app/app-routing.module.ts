@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-
+import { MainComponent } from './pages/main/main.component';
 import { InicioComponent } from './pages/inicio/inicio.component';
 import { DatosComponent } from './pages/datos/datos.component';
 import { DirectorioComponent } from './pages/directorio/directorio.component';
@@ -8,7 +8,7 @@ import { EjecutivoComponent } from './pages/ejecutivo/ejecutivo.component';
 import { EstructuraComponent } from './pages/estructura/estructura.component';
 import { GeograficaComponent } from './pages/geografica/geografica.component';
 const routes: Routes = [
- 
+  { path : "", component : MainComponent},
   { path : "inicio", component : InicioComponent},
   { path : "datos", component : DatosComponent},
   { path : "directorio", component : DirectorioComponent}, 
